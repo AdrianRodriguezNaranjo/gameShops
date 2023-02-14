@@ -39,12 +39,12 @@
   </games>
   <figures>
     <figure>
-      <figure_name>Luffy Wanno</figure_name>
+      <figure_name from="One Piece">Luffy Wanno</figure_name>
       <figure_priece>120</figure_priece>
       <type>Figura resina</type>
     </figure>
     <figure>
-      <figure_name>Canela</figure_name>
+      <figure_name from="Animal Crossing">Canela</figure_name>
       <figure_priece>40</figure_priece>
       <type>Peluche</type>
     </figure>

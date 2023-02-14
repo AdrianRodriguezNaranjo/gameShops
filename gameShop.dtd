@@ -20,6 +20,8 @@
 
 <!ELEMENT figure_name (#PCDATA)>
 
+<!ATTLIST figure_name from  CDATA #REQUIRED>
+
 <!ELEMENT figure_priece (#PCDATA)>
 
 <!ELEMENT type (#PCDATA)>
