@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT shops (shop+)>
+
+<!ELEMENT shop (games,figures?)>
+
+<!ELEMENT games (game+)>
+
+<!ELEMENT figures (figure*)>
+
+<!ELEMENT game (game_name,platform+)>
+
+<!ELEMENT game_name (#PCDATA)>
+
+<!ELEMENT platform (platform_name,game_priece?)>
+
+<!ELEMENT platform_name (#PCDATA)>
+
+<!ELEMENT game_priece (#PCDATA)>
+
+<!ELEMENT figure (figure_name,figure_priece,type)>
+
+<!ELEMENT figure_name (#PCDATA)>
+
+<!ELEMENT figure_priece (#PCDATA)>
+
+<!ELEMENT type (#PCDATA)>
