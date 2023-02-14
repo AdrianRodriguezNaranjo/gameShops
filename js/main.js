@@ -8,7 +8,8 @@ xhttp.send();
 
 function showResult(xml, value) {
   var array = ["//game_name","//figure_name","/shops/shop/games/game[3]/game_name","//figure_name | //game_name",
-"//game[last()]//node()","//figure[1]/text()","//games/*","//game[/platform/game_priece <20]","//figure_priece[. > 60]","/game//platform_name"];
+"//game[last()]//node()","//figure[1]//text()","count(//games/*)","//game[/platform/game_priece <20]",
+"//figure_priece[. > 60]","/game//platform_name"];
   var txt = "";
   path = array[value];
   if (xml.evaluate) {
