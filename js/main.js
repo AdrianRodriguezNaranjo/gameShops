@@ -8,7 +8,7 @@ xhttp.send();
 
 function showResult(xml, value) {
   var array = ["//game_name","//figure_name","/shops/shop/games/game[3]/game_name","//figure_name | //game_name",
-"//game[last()]","string(//figure[1])","count((//games))","//game[/platform/game_priece <20]",
+"//game_name[last()] | //platform[1]","string(//figure[1])","count((//games))","//game[/platform/game_priece <20]",
 "//figure_priece[. > 60]","/shops/shop/games/game/platform/platform_name"];
   var txt = "";
   path = array[value];
