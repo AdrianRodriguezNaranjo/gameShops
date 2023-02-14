@@ -1,8 +1,7 @@
 var xhttp = new XMLHttpRequest();
-function ola(value) {
+function getConsul(value) {
   showResult(xhttp.responseXML, value);
 }
-
 
 xhttp.open("GET", "gameShop.xml", true);
 xhttp.send();
