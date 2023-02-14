@@ -8,7 +8,7 @@ xhttp.send();
 
 function showResult(xml, value) {
   var array = ["//game_name","//figure_name","/shop/games/game[2]/game_name","//figure_name | //game_name",
-"/shop/figures/figure[last()]/type","//@from","//figure_name[@from = 'Animal Crossing']",
+"/shop/figures/figure[last()]/type","//@*","//figure_name[@from = 'Animal Crossing']",
 "//game_name[../platform/game_priece < 20]",
 "//figure_priece[. > 60]","/shop/games/game/platform/platform_name"];
   var txt = "";
