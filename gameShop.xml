@@ -2,53 +2,51 @@
 
 <?xml-model href="gameShop.dtd" type="application/xml-dtd"?>
 
-<shops>
-  <shop>
-    <games>
-      <game>
-        <game_name>Hogwarts legacy</game_name>
-        <platform>
-          <platform_name>PC</platform_name>
-          <game_priece>59</game_priece>
-        </platform>
-        <platform>
-          <platform_name>PS5</platform_name>
-          <game_priece>60</game_priece>
-        </platform>
-        <platform>
-          <platform_name>XBOX Serie X</platform_name>
-          <game_priece>60</game_priece>
-        </platform>
-      </game>
-      <game>
-        <game_name>Mario Kart 8</game_name>
-        <platform>
-          <platform_name>Nintendo Switch</platform_name>
-          <game_priece>50</game_priece>
-        </platform>
-      </game>
-      <game>
-        <game_name>Stardew Vallew</game_name>
-        <platform>
-          <platform_name>Nintendo Switch</platform_name>
-        </platform>
-        <platform>
-          <platform_name>PC</platform_name>
-          <game_priece>15</game_priece>
-        </platform>
-      </game>
-    </games>
-    <figures>
-      <figure>
-        <figure_name>Luffy Wanno</figure_name>
-        <figure_priece>120</figure_priece>
-        <type>Figura resina</type>
-      </figure>
-      <figure>
-        <figure_name>Canela</figure_name>
-        <figure_priece>40</figure_priece>
-        <type>Peluche</type>
-      </figure>
-    </figures>
-  </shop>
-</shops>
+<shop>
+  <games>
+    <game>
+      <game_name>Hogwarts legacy</game_name>
+      <platform>
+        <platform_name>PC</platform_name>
+        <game_priece>59</game_priece>
+      </platform>
+      <platform>
+        <platform_name>PS5</platform_name>
+        <game_priece>60</game_priece>
+      </platform>
+      <platform>
+        <platform_name>XBOX Serie X</platform_name>
+        <game_priece>60</game_priece>
+      </platform>
+    </game>
+    <game>
+      <game_name>Mario Kart 8</game_name>
+      <platform>
+        <platform_name>Nintendo Switch</platform_name>
+        <game_priece>50</game_priece>
+      </platform>
+    </game>
+    <game>
+      <game_name>Stardew Vallew</game_name>
+      <platform>
+        <platform_name>Nintendo Switch</platform_name>
+      </platform>
+      <platform>
+        <platform_name>PC</platform_name>
+        <game_priece>15</game_priece>
+      </platform>
+    </game>
+  </games>
+  <figures>
+    <figure>
+      <figure_name>Luffy Wanno</figure_name>
+      <figure_priece>120</figure_priece>
+      <type>Figura resina</type>
+    </figure>
+    <figure>
+      <figure_name>Canela</figure_name>
+      <figure_priece>40</figure_priece>
+      <type>Peluche</type>
+    </figure>
+  </figures>
+</shop>
