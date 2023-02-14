@@ -9,7 +9,7 @@ xhttp.send();
 function showResult(xml, value) {
   var array = ["//game_name","//figure_name","/shop/games/game[2]/game_name","//figure_name | //game_name",
 "/shop/figures/figure[last()]/type","concat(//figure_name[1],' : ',//figure_priece)","//game[text()]",
-"//game_name/../platform/game_priece [.<20]",
+"//game_name[/game_priece <20]",
 "//figure_priece[. > 60]","/shop/games/game/platform/platform_name"];
   var txt = "";
   path = array[value];
