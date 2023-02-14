@@ -8,8 +8,8 @@ xhttp.send();
 
 function showResult(xml, value) {
   var array = ["//game_name","//figure_name","/shop/games/game[2]/game_name","//figure_name | //game_name",
-"/shop/figures/figure[last()]/type","concat(//figure_name[1],' : ',//figure_priece)","//game/[text()]",
-"//game_name[/platform/game_priece <20]",
+"/shop/figures/figure[last()]/type","concat(//figure_name[1],' : ',//figure_priece)","count(//game)",
+"//game_name[platform/game_priece < 20]",
 "//figure_priece[. > 60]","/shop/games/game/platform/platform_name"];
   var txt = "";
   path = array[value];
@@ -27,6 +27,8 @@ function showResult(xml, value) {
     for (i = 0; i < nodes.length; i++) {
       txt += nodes[i].childNodes[0].nodeValue + "<br>";
     }
+  } else{
+    txt = path;
   }
   document.getElementById("demo").innerHTML = txt;
 
