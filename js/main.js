@@ -7,7 +7,8 @@ xhttp.open("GET", "gameShop.xml", true);
 xhttp.send();
 
 function showResult(xml, value) {
-  var array = ["//game_name","//figure_name","/shops/shop/games/game[3]/game_name","//figure_name[type='Peluche']"]
+  var array = ["//game_name","//figure_name","/shops/shop/games/game[3]/game_name","//figure_name[type = 'Peluche']",
+"//game/node()","//figure[1]/text()","//games/*","","",""];
   var txt = "";
   path = array[value];
   if (xml.evaluate) {
